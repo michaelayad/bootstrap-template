@@ -1,0 +1,151 @@
+.first-nav {
+  background-color: #00796b;
+}
+.first-nav ul {
+  list-style-type: none;
+}
+
+.main-navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-icons .box-icon {
+  background-color: #008d7d;
+}
+.box-icons .box-icon i {
+  font-size: 60px;
+  color: #99d2cb;
+}
+.box-icons .box-icon:hover {
+  background-color: #079483;
+}
+.box-icons .box-icon:hover i {
+  font-size: 65px;
+  color: #e9f7f5;
+}
+
+.about-section .about-header h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #008374;
+  bottom: -10px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.about-section .about-header p {
+  color: #818179;
+}
+
+.service-section {
+  background-color: #f6f6f6;
+}
+.service-section .service-header h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #008374;
+  bottom: -10px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.service-section .service-header p {
+  color: #818179;
+}
+.service-section .service-body .service-item {
+  background-color: white;
+}
+.service-section .service-body .service-item .service-icon {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+.service-section .service-body .service-item .service-icon i {
+  font-size: 40px;
+  z-index: 2;
+}
+.service-section .service-body .service-item .service-icon::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #eeeeee;
+  top: 10px;
+  left: 20px;
+  margin: auto;
+  border-radius: 50%;
+  z-index: 1;
+}
+.service-section .service-body .service-item:hover h3 {
+  border-bottom: 5px solid #008374;
+}
+.service-section .service-body .service-item:hover .service-icon::before {
+  background: #008374;
+}
+
+.portfolio-section .portfolio-header h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #008374;
+  bottom: -10px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.portfolio-section .portfolio-header p {
+  color: #818179;
+}
+.portfolio-section .portfolio-body .portfolio-item img {
+  transition: 0.3;
+  transform: scale(0.97);
+}
+.portfolio-section .portfolio-body .portfolio-item:hover .card-title {
+  color: #008374;
+}
+.portfolio-section .portfolio-body .portfolio-item:hover img {
+  transform: scale(1);
+}
+
+.team-section {
+  background-color: #f6f6f6;
+}
+.team-section .team-header h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #008374;
+  bottom: -10px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.team-section .team-header p {
+  color: #818179;
+}
+.team-section .team-body .team-item i {
+  color: #a2a2a2;
+  line-height: 1;
+}
+.team-section .team-body .team-item a {
+  border: 2px solid #a2a2a2;
+  border-radius: 50%;
+}
+.team-section .team-body .team-item a:hover {
+  border-color: #008374;
+}
+.team-section .team-body .team-item a:hover i {
+  color: #008374;
+}/*# sourceMappingURL=style.css.map */
